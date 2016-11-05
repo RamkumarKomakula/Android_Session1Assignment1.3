@@ -1,0 +1,19 @@
+import java.*
+class Swap
+   {
+     public static void main (String args[])
+       {
+         int x=15;
+         int y=25;
+         system.out.println("Before swap: ");
+         system.out.println("x value: "+x);
+         system.out.println("y value: "+y);
+         x=x+y;
+         y=x-y;
+         x=x-y;
+         system.out.println("After swap: ");
+         system.out.println("x value: "+x);
+         system.out.println("y value: "+y);
+       }
+   }
+         
